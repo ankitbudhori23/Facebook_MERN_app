@@ -1,0 +1,103 @@
+.profile_sectionhead {
+  margin: auto;
+  height: 560px;
+  margin-top: -10px;
+  box-shadow: 0 0 10px -2px #bdbdbd;
+}
+.profile_coverimg {
+  width: 940px;
+  max-height: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px -15px grey;
+  margin: auto;
+  min-height: 300px;
+  position: relative;
+}
+.profile_profileimg {
+  position: absolute !important;
+  width: 168px;
+  height: 168px !important;
+  border-radius: 50%;
+  bottom: -140px;
+  left: 45px;
+  box-shadow: 0 0 0px 5px white;
+}
+.profile_ucat {
+  position: absolute;
+  bottom: -80px;
+  left: 260px;
+}
+.profile_uname {
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.profile_uname_frnds {
+  font-size: 17px;
+  color: #65676b;
+}
+.profile_ucatbt {
+  position: absolute;
+  right: 35px;
+  bottom: -70px;
+}
+.addfbtn {
+  margin-right: 20px !important;
+}
+.profile_sectiontail {
+  display: flex;
+  justify-content: space-around;
+}
+.addfloading {
+  color: white;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0px 37px;
+}
+.unfpsc {
+  width: 90%;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 200px;
+}
+.frndsavt {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  display: flex;
+}
+.fboxinfop {
+  position: absolute;
+  bottom: -130px;
+  left: 243px;
+  width: 300px;
+  height: 235px;
+}
+.frndsavtz {
+  margin: -7px;
+  cursor: pointer;
+}
+.fboxopen {
+  background: #f0f2f5;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px -5px grey;
+  padding: 12px;
+}
+.proiccemr {
+  position: absolute !important;
+  left: 168px !important;
+  bottom: -135px !important;
+  background: #dddddd !important;
+}
+.profile_coverchbp {
+  position: absolute !important;
+  bottom: 15px !important;
+  right: 15px !important;
+  background: #ffffff !important;
+  color: black !important;
+}

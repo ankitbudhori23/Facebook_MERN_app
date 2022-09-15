@@ -1,0 +1,18 @@
+* {
+  margin: 0%;
+  font-family: system-ui !important;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaaaaabd;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #949393;
+}

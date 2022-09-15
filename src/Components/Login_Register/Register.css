@@ -1,0 +1,240 @@
+/*Background Section Start*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+img.regcanbtn {
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+.reg_form {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.reg_top {
+  text-align: left;
+}
+form {
+  width: 425px;
+  box-shadow: 0px 5px 8px 3px #aaaa;
+  border-radius: 5px;
+  background: white;
+  z-index: 10;
+  position: relative;
+  margin: auto;
+  margin-top: 80px;
+}
+/*1st title and sub-title start*/
+.first_title {
+  font-size: 32px;
+  padding: 10px 10px 0px 10px;
+}
+.first_sub_title {
+  color: #606770;
+  margin-left: 10px;
+}
+.regphr {
+  margin-top: 10px;
+  opacity: 20%;
+}
+/*1st title and sub-title end*/
+/*Input section start*/
+.all {
+  width: 196px;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #aaaa;
+  font-size: 15px;
+  padding-left: 10px;
+  background: #f5f6f7;
+  outline: none;
+}
+.fna {
+  margin-right: 12px;
+}
+.input {
+  margin-top: 5px;
+  padding: 10px;
+}
+.all1 {
+  width: 404px;
+  background: #f5f6f7;
+  height: 40px;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+/*Input section end*/
+/*Date of birth section start*/
+.sub_title_2 {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
+}
+select {
+  width: 125px;
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 36px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  outline: none;
+}
+/*Date of birth section end*/
+/*Gender section start*/
+.sub_title_3 {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.all_gender {
+  width: 125px;
+  height: 37px;
+  border: 1px solid #aaaa;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+  position: relative;
+}
+.female {
+  margin-left: 10px;
+}
+input#female {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+.male {
+  margin-top: -37px;
+  margin-left: 150px;
+}
+input#male {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+.other {
+  margin-left: 288px;
+  margin-top: -37px;
+}
+.gender {
+  padding: 10px 40px 10px 10px;
+}
+input#other {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+/*Gender section end*/
+/*last section start*/
+.sub_title_4 {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #606770;
+  padding-right: 5px;
+}
+.sub_title_4 a {
+  text-decoration: none;
+  color: blue;
+}
+.tnc {
+  margin-top: 10px;
+}
+.subbtn {
+  justify-content: center;
+  display: flex;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  background: #0ebd02;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.regspin {
+  color: #ffffff !important;
+  width: 25px !important;
+  margin-left: 10px !important;
+  height: 25px !important;
+  margin-bottom: -5px !important;
+}
+.submit:hover {
+  background: linear-gradient(#79bc64, #578843);
+  cursor: pointer;
+}
+.regerror {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 80%;
+  margin: auto;
+}
+.regerr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* when width is 900px */
+@media only screen and (max-width: 900px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .login_lh {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -18px;
+    max-width: 400px;
+  }
+  .login_left {
+    margin-top: 0px;
+  }
+  .login_logo {
+    max-width: 310px;
+    margin: auto;
+  }
+  .logerror {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* when width is 450px */
+@media only screen and (max-width: 450px) {
+}

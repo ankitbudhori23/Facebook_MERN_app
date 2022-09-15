@@ -1,0 +1,17 @@
+/* .Sidebar {
+  position: fixed;
+} */
+.Sidebar h6 {
+  font-family: "segoeUI";
+  font-weight: 500;
+}
+.Sidebar img,
+.Sidebar svg {
+  margin-right: 7px;
+  color: #056be1;
+}
+.Sidebar .profilePic img {
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+}

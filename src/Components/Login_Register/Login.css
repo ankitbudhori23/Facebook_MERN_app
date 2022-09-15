@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f0f2f5;
+}
+.login {
+  display: flex;
+  margin: 85px 60px;
+  width: auto;
+  justify-content: space-evenly;
+}
+.login_left {
+  margin-top: 150px;
+}
+.login_logo {
+  max-width: 320px;
+  margin-top: -50px;
+  margin-left: -35px;
+}
+.login_lh {
+  font-size: 28px;
+  text-align: left;
+  margin-top: -18px;
+  max-width: 500px;
+}
+.login_text {
+  font-size: 17px;
+  padding: 15px 16px;
+  width: 362px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #c6c8cb;
+}
+.login_text:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  caret-color: #1877f2;
+}
+.log_btn {
+  background-color: #1877f2 !important;
+  border-radius: 6px !important;
+  font-size: 20px !important;
+  width: 365px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+.forpass {
+  color: #1877f2;
+  font-size: 14px;
+  margin-top: 20px;
+}
+hr.log_hr {
+  margin: 20px 16px;
+  border-color: #dbdbdb5e;
+}
+p.l_L {
+  color: #1c1e21;
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+.log_btnnew {
+  border-radius: 6px !important;
+  font-size: 17px !important;
+  line-height: 48px !important;
+  padding: 0 16px !important;
+  background-color: #42b72a !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+.login_rbox {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  align-items: center;
+  text-align: center;
+}
+.logspin {
+  color: white !important;
+  width: 25px !important;
+  height: 25px !important;
+  margin-left: 12px !important;
+}
+.logerror {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+}
+.errc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .login_left {
+    margin-top: 0px;
+  }
+  .login_lh {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -18px;
+    max-width: 400px;
+  }
+  .login_logo {
+    max-width: 310px;
+    margin: auto;
+  }
+  .logerror {
+    top: 100px;
+  }
+}
